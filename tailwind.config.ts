@@ -8,10 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        "sg-yellow": "#ffdd80",
+        "sg-green": "#87af4d",
+        "sg-orange": "#fe6d2b",
+        "sg-pink": "#e4027b",
+        "sg-blue": "#a3a8ff",
+      },
+      fontFamily: {
+        headline: ["Yeseva One", "serif"],
       },
     },
   },
