@@ -24,7 +24,7 @@ export const Countdown = () => {
   const seconds = diff ? Math.floor((diff % (1000 * 60)) / 1000) : null;
 
   return (
-    <div className="flex text-black justify-around items-center">
+    <div className="flex text-black justify-evenly items-center">
       <SingleValue value={days} label="Days" />
       <SingleValue value={hours} label="Hours" />
       <SingleValue value={minutes} label="Minutes" />
@@ -41,8 +41,8 @@ const SingleValue = ({
   label: string;
 }) => {
   return (
-    <div className="flex flex-col justify-center items-center mx-10 my-5">
-      <span className="text-5xl font-extralight">
+    <div className="flex flex-col justify-center items-center mx-3 lg:mx-10 my-2 lg:my-5">
+      <span className="text-2xl lg:text-5xl font-light lg:font-extralight">
         {value?.toFixed(0) ?? "-"}
       </span>
       <span className="text-sm text-sg-blue font-bold">{label}</span>
