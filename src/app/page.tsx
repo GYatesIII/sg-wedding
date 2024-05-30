@@ -1,10 +1,12 @@
 import { Countdown } from "@/components/countdown";
 import { Menu } from "@/components/menu";
+import { ScheduleSection } from "@/sections/schedule-section";
+import { TravelSection } from "@/sections/travel-section";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-w-full min-h-full">
+    <div className="box-content min-w-full min-h-[100vh] pb-[75px]">
       <Menu />
       <div className="relative w-[100vw] h-[100vh]">
         <div className="absolute top-0 left-0 bottom-0 right-0 z-30 flex flex-col justify-center items-center gap-5">
@@ -40,6 +42,8 @@ export default function Home() {
           </video>
         </div>
       </div>
+      <TravelSection />
+      <ScheduleSection />
     </div>
   );
 }

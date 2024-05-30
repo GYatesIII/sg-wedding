@@ -11,8 +11,8 @@ export const Menu = () => {
     <nav className="w-[100vw] h-[75px] bg-sg-yellow bg-opacity-90 bottom-0 fixed z-[1000]">
       <menu className="h-full flex justify-around items-center">
         <RsvpFormButton />
-        <Link url="#" label="Travel" icon={LinkIcon.GLOBE} />
-        <Link url="#" label="Schedule" icon={LinkIcon.CALENDAR} />
+        <Link url="#travel" label="Travel" icon={LinkIcon.GLOBE} />
+        <Link url="#schedule" label="Schedule" icon={LinkIcon.CALENDAR} />
       </menu>
     </nav>
   );
