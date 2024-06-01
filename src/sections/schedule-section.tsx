@@ -1,7 +1,6 @@
 import { Section } from "@/components/section";
 import { Paragraph } from "@/components/typography/paragraph";
 import { Subheading } from "@/components/typography/subheading";
-import { Subsubheading } from "@/components/typography/subsubheading";
 import { PropsWithChildren } from "react";
 
 export const ScheduleSection = () => {

@@ -1,5 +1,8 @@
+"use client";
+
 import { Countdown } from "@/components/countdown";
 import { Menu } from "@/components/menu";
+import { Subheading } from "@/components/typography/subheading";
 import { ScheduleSection } from "@/sections/schedule-section";
 import { TravelSection } from "@/sections/travel-section";
 import Image from "next/image";
@@ -10,7 +13,10 @@ export default function Home() {
       <Menu />
       <div className="relative w-[100vw] h-[100vh]">
         <div className="absolute top-0 left-0 bottom-0 right-0 z-30 flex flex-col justify-center items-center gap-5">
-          <Image src="/next.svg" alt="Sarah G" width={200} height={200} />
+          <Subheading className="text-center text-2xl lg:text-6xl">
+            Sarah &amp; George get hitched
+          </Subheading>
+          {/* <Image src="/next.svg" alt="Sarah G" width={200} height={200} /> */}
           <p className="text-center text-white text-3xl lg:text-6xl font-headline mt-4 mb-4">
             December 13 & 14, 2024
           </p>
