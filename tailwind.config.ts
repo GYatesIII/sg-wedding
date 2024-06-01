@@ -19,6 +19,11 @@ const config: Config = {
       fontFamily: {
         headline: ["Yeseva One", "serif"],
       },
+      backgroundImage: {
+        "travel-img": "url('/travel-bg.png')",
+        "schedule-img": "url('/schedule-bg.png')",
+        "faq-img": "url('/faq-bg.png')",
+      },
     },
   },
   plugins: [],

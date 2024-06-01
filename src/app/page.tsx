@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="box-content min-w-full min-h-[100vh] pb-[75px]">
       <Menu />
-      <div className="relative w-[100vw] h-[100vh]">
+      <div className="relative w-full h-[100vh]">
         <div className="absolute top-0 left-0 bottom-0 right-0 z-30 flex flex-col justify-center items-center gap-5">
           <Subheading className="text-center text-2xl lg:text-6xl">
             Sarah &amp; George get hitched
@@ -24,7 +24,7 @@ export default function Home() {
           </p>
           <div className="flex">
             <div className="hidden lg:block h-full w-28 bg-gradient-to-l from-[rgba(255,255,255,0.8)] to-transparent"></div>
-            <div className="w-[100vw] lg:w-[inherit] bg-white bg-opacity-80">
+            <div className="w-full lg:w-[inherit] bg-white bg-opacity-80">
               <Countdown />
             </div>
             <div className="hidden lg:block h-full w-28 bg-gradient-to-r from-[rgba(255,255,255,0.8)] to-transparent"></div>

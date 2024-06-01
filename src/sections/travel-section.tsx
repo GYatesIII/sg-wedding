@@ -1,11 +1,16 @@
-import { Section } from "@/components/section";
+import { Section, SectionAlignment } from "@/components/section";
 import { Paragraph } from "@/components/typography/paragraph";
 import { Subheading } from "@/components/typography/subheading";
 import { Subsubheading } from "@/components/typography/subsubheading";
-
+import Image from "next/image";
 export const TravelSection = () => {
   return (
-    <Section className="bg-sg-orange" id="travel">
+    <Section
+      className="bg-sg-orange"
+      id="travel"
+      alignment={SectionAlignment.LEFT}
+      bgClass="bg-travel-img"
+    >
       <Subheading className="lg:mb-6">Travel</Subheading>
       <Paragraph>
         We are excited to celebrate our wedding at Hacienda Sotuta de Peón, a

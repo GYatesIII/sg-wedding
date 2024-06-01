@@ -1,11 +1,16 @@
-import { Section } from "@/components/section";
+import { Section, SectionAlignment } from "@/components/section";
 import { Paragraph } from "@/components/typography/paragraph";
 import { Subheading } from "@/components/typography/subheading";
 import { PropsWithChildren } from "react";
 
 export const ScheduleSection = () => {
   return (
-    <Section id="schedule" className="bg-sg-blue">
+    <Section
+      id="schedule"
+      className="bg-sg-blue"
+      alignment={SectionAlignment.RIGHT}
+      bgClass="bg-schedule-img"
+    >
       <Subheading>Celebratory Schedule</Subheading>
       <Paragraph className="mb-8">
         We encourage everyone to arrive on <strong>December 12th</strong> and
