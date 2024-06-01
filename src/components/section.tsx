@@ -23,7 +23,7 @@ export const Section = ({
   ...props
 }: SectionProps) => {
   const classes = `relative px-4 py-8 lg:py-16 ${className ?? ""}`;
-  const bgClasses = `absolute z-0 ${bgClass ?? ""} top-0 right-0 bottom-0 left-0 bg-no-repeat opacity-20 ${alignment === SectionAlignment.LEFT ? "bg-[right_50px]" : "bg-[left_50px]"}`;
+  const bgClasses = `hidden lg:block absolute z-0 ${bgClass ?? ""} top-0 right-0 bottom-0 left-0 bg-no-repeat opacity-20 ${alignment === SectionAlignment.LEFT ? "bg-[right_50px]" : "bg-[left_50px]"}`;
 
   return (
     <section className={classes} {...props}>
@@ -34,8 +34,8 @@ export const Section = ({
             alignment === SectionAlignment.MIDDLE
               ? ""
               : alignment === SectionAlignment.LEFT
-                ? "pr-[150px]"
-                : "pl-[150px]"
+                ? "lg:pr-[150px]"
+                : "lg:pl-[150px]"
           }
         >
           {children}
