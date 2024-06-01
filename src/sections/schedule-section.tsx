@@ -18,8 +18,9 @@ export const ScheduleSection = () => {
       <div className="grid grid-cols-1 lg:grid-cols-[140px_1fr] lg:gap-y-8">
         <Day date={12}>Thursday</Day>
         <Paragraph className="italic">
-          If you'd like to join in the tours on Friday, you will need to travel
-          to Merida on Thursday. Details about acommodations are forthcoming.
+          If you&rsquo;d like to join in the tours on Friday, you will need to
+          travel to Merida on Thursday. Details about acommodations are
+          forthcoming.
         </Paragraph>
         <Day date={13}>Friday</Day>
         <div>

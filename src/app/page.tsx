@@ -3,6 +3,8 @@
 import { Countdown } from "@/components/countdown";
 import { Menu } from "@/components/menu";
 import { Subheading } from "@/components/typography/subheading";
+import { FaqSection } from "@/sections/faq-section";
+import { GallerySection } from "@/sections/gallery-section";
 import { ScheduleSection } from "@/sections/schedule-section";
 import { TravelSection } from "@/sections/travel-section";
 import Image from "next/image";
@@ -50,6 +52,8 @@ export default function Home() {
       </div>
       <TravelSection />
       <ScheduleSection />
+      <FaqSection />
+      <GallerySection />
     </div>
   );
 }
