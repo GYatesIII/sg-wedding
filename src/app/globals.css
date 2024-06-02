@@ -15,6 +15,14 @@ body {
   background-color: rg(var(--background-rgb));
 }
 
+p > a {
+  text-decoration: underline;
+}
+
+p > a:hover {
+  text-decoration: none;
+}
+
 @layer base {
 }
 

@@ -27,6 +27,13 @@ export const DrawerMenu = ({
             FAQ
           </Link>
           <Link
+            href="#yucatan"
+            onClick={closeDrawer}
+            className="font-headline text-2xl hover:underline"
+          >
+            The Yucatan
+          </Link>
+          <Link
             href="#gallery"
             onClick={closeDrawer}
             className="font-headline text-2xl hover:underline"

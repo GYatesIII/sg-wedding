@@ -7,6 +7,7 @@ import { FaqSection } from "@/sections/faq-section";
 import { GallerySection } from "@/sections/gallery-section";
 import { ScheduleSection } from "@/sections/schedule-section";
 import { TravelSection } from "@/sections/travel-section";
+import { YucatanSection } from "@/sections/yucatan-section";
 import Image from "next/image";
 
 export default function Home() {
@@ -53,6 +54,7 @@ export default function Home() {
       <TravelSection />
       <ScheduleSection />
       <FaqSection />
+      <YucatanSection />
       <GallerySection />
     </div>
   );

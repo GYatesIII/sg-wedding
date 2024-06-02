@@ -24,14 +24,14 @@ export const ScheduleSection = () => {
         <Day date={12}>Thursday</Day>
         <Paragraph className="italic">
           If you&rsquo;d like to join in the tours on Friday, you will need to
-          travel to Merida on Thursday. Details about acommodations are
+          travel to Mérida on Thursday. Details about acommodations are
           forthcoming.
         </Paragraph>
         <Day date={13}>Friday</Day>
         <div>
           <Paragraph className="italic">
             We are going to plan some group tours to explore the city and the
-            area around Merida on Friday during the day.
+            area around Mérida on Friday during the day.
           </Paragraph>
           <Paragraph>
             The <strong>official celebration</strong> starts in the evening on
@@ -48,7 +48,7 @@ export const ScheduleSection = () => {
         <div>
           <Paragraph>
             There will be breakfast at the hacienda and we will help everyone
-            get to the Merida airport for their journey home.
+            get to the Mérida airport for their journey home.
           </Paragraph>
           <Paragraph className="italic">
             We also encourage a longer trip to explore the Yucatan more broadly!

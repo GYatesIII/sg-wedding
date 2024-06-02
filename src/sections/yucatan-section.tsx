@@ -2,13 +2,14 @@ import { Section, SectionAlignment } from "@/components/section";
 import { Paragraph } from "@/components/typography/paragraph";
 import { Subheading } from "@/components/typography/subheading";
 
-export const GallerySection = () => (
+export const YucatanSection = () => (
   <Section
-    id="gallery"
-    className="bg-sg-green"
+    id="yucatan"
+    className="bg-sg-orange"
+    // bgClass="bg-faq-img"
     alignment={SectionAlignment.MIDDLE}
   >
-    <Subheading>Gallery</Subheading>
+    <Subheading>The Yucatan</Subheading>
     <Paragraph>Coming soon...</Paragraph>
   </Section>
 );
