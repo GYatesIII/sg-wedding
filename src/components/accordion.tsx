@@ -15,7 +15,7 @@ export const Accordion = ({ question, children: answer }: AccordionProps) => {
   return (
     <div className="mb-6">
       <div
-        className="flex items-center hover:cursor-pointer hover:underline font-headline text-xl mb-2"
+        className="flex items-center hover:cursor-pointer hover:underline font-headline text-md lg:text-xl mb-2"
         onClick={toggleOpen}
       >
         {isOpen ? (
