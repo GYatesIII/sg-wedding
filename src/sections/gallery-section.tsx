@@ -45,14 +45,7 @@ const ratios: number[] = [4 / 3, 10 / 3];
 const widths: number[] = [1024];
 
 export const GallerySection = () => (
-  <>
-    <Section
-      id="gallery"
-      className="bg-sg-green"
-      alignment={SectionAlignment.MIDDLE}
-    >
-      <Subheading>Gallery</Subheading>
-    </Section>
+  <div id="gallery">
     <Gallery
       images={images}
       ratios={ratios}
@@ -60,5 +53,5 @@ export const GallerySection = () => (
       lastRowBehavior="fill"
       gap="0px"
     />
-  </>
+  </div>
 );
