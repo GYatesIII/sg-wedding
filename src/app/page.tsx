@@ -16,7 +16,7 @@ export default function Home() {
       <Menu />
       <div className="relative w-full h-[100vh]">
         <div className="absolute top-0 left-0 bottom-0 right-0 z-30 flex flex-col justify-center items-center gap-5">
-          <div className="w-[240px] mb-2 lg:w-[600px] lg:mb-14">
+          <div className="w-[240px] mb-2 lg:w-[400px] lg:mb-6 lg:mt-[-50px]">
             <Image
               src="/sarah-george-logo.png"
               alt="Sarah G"
@@ -27,7 +27,7 @@ export default function Home() {
           <Subheading className="mb-0">
             Sarah &amp; George get hitched
           </Subheading>
-          <p className="text-center text-white text-3xl lg:text-6xl font-headline mt-0 mb-2 lg:mb-4">
+          <p className="text-center text-white text-3xl lg:text-5xl font-headline mt-0 mb-2 lg:mb-4">
             December 13 & 14, 2024
           </p>
           <div className="flex">
