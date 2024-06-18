@@ -1,3 +1,4 @@
+import funBordersPlugin from "./src/tailwind-plugins/fun-borders";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -27,6 +28,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [funBordersPlugin],
 };
 export default config;

@@ -7,7 +7,7 @@ import { PopupButton } from "@typeform/embed-react";
 export const FaqSection = () => (
   <Section
     id="faq"
-    className="bg-sg-pink"
+    className="bg-sg-pink zigzag-sg-pink lg:zigzag-lg-sg-pink"
     bgClass="bg-faq-img"
     alignment={SectionAlignment.LEFT}
   >

@@ -6,7 +6,7 @@ import Image from "next/image";
 export const TravelSection = () => {
   return (
     <Section
-      className="bg-sg-orange"
+      className="bg-sg-orange zigzag-sg-orange lg:zigzag-lg-sg-orange pt-8 lg:pt-16"
       id="travel"
       alignment={SectionAlignment.LEFT}
       bgClass="bg-travel-img"

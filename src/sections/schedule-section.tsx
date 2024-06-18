@@ -7,7 +7,7 @@ export const ScheduleSection = () => {
   return (
     <Section
       id="schedule"
-      className="bg-sg-blue"
+      className="bg-sg-blue zigzag-sg-blue lg:zigzag-lg-sg-blue"
       alignment={SectionAlignment.RIGHT}
       bgClass="bg-schedule-img"
     >

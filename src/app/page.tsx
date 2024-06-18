@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className="box-content min-w-full min-h-[100vh] pb-[75px]">
       <Menu />
-      <div className="relative w-full h-[100vh]">
+      <div className="relative w-full min-h-[470px] lg:min-h-[700px] h-[100vh]">
         <div className="absolute top-0 left-0 bottom-0 right-0 z-30 flex flex-col justify-center items-center gap-5">
           <div className="w-[240px] mb-2 lg:w-[400px] lg:mb-6 lg:mt-[-50px]">
             <Image
