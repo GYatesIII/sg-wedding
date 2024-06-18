@@ -31,7 +31,7 @@ export const DrawerMenu = ({
             onClick={closeDrawer}
             className="font-headline text-2xl hover:underline"
           >
-            The Yucatan
+            The Yucatán
           </Link>
           <Link
             href="#gallery"

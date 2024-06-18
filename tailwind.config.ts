@@ -23,6 +23,7 @@ const config: Config = {
         "travel-img": "url('/travel-bg.png')",
         "schedule-img": "url('/schedule-bg.png')",
         "faq-img": "url('/faq-bg.png')",
+        "yucatan-img": "url('/yucatan-bg.png')",
       },
     },
   },

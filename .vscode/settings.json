@@ -1,4 +1,16 @@
 {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "cSpell.words": [
+    "Balam",
+    "Calakmul",
+    "Cancún",
+    "cenote",
+    "cenotes",
+    "Mérida",
+    "Quintana",
+    "Subsubheading",
+    "Tulum",
+    "Xcaret"
+  ]
 }

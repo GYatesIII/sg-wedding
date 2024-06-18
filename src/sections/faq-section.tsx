@@ -21,11 +21,15 @@ export const FaqSection = () => (
       <Paragraph>
         We also recommend buying your flights soon, the sooner we know when
         people are arriving the better we can plan to make your trip as easy as
-        possible.
+        possible. If you&rsquo;re planning on arriving on Thursday, your arrival
+        time is flexible as the start of tours will be planned for Friday
+        morning. If you&rsquo;re arriving on Friday, we recommend arriving
+        before 3pm local time.
       </Paragraph>
       <Paragraph>
-        In July, we&rsquo;ll be collecting this info and sending an email with
-        more information about accomodations and plans when you land.
+        Don&rsquo;t worry about booking accommodations now. In July, we&rsquo;ll
+        be collecting your flight details and sending an email with more
+        information about accomodations and plans when you land.
       </Paragraph>
     </Accordion>
     <Accordion question="What is the dress code?">
@@ -46,6 +50,26 @@ export const FaqSection = () => (
         We are inviting close family and friends. We are keeping the guest list
         small &mdash; about 50 people &mdash; so we can spend quality time with
         everyone.
+      </Paragraph>
+    </Accordion>
+    <Accordion question="How can I make this a longer trip?">
+      <Paragraph>
+        Amazing! Your trip details are up to you, but we can provide some
+        recommendations based on our own experience.
+      </Paragraph>
+      <Paragraph>
+        If you&rsquo;d like to explore the Yucatan; you&rsquo;ll get to
+        experience Mayan culture, cenotes, and the resorts of Riviera Maya
+        (Cancun, Tulum, etc). We&rsquo;ve put together{" "}
+        <a href="#yucatan">a guide</a> for this exploration.
+      </Paragraph>
+      <Paragraph>
+        If you&rsquo;d like to range farther afield, we cannot recommend Mexico
+        City highly enough. And while we haven&rsquo;t yet had the opportunity
+        to explore them, we&rsquo;ve heard great things about Puerto Vallarta,
+        Oaxaca City, and Puerto Escondido. Los Cabos are also popular beach
+        destinations but may be a bit redundant given the proximity of Riviera
+        Maya to Merida.
       </Paragraph>
     </Accordion>
     <Accordion question="Should I arrive with pesos in cash?">
@@ -91,7 +115,7 @@ export const FaqSection = () => (
           Global Entry
         </a>{" "}
         if you plan on traveling internationally at least once more in the next
-        5 years.
+        5 years - but it can take six months to process so start now!
       </Paragraph>
     </Accordion>
   </Section>
