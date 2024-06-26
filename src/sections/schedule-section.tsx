@@ -52,7 +52,8 @@ export const ScheduleSection = () => {
           </Paragraph>
           <Paragraph className="italic">
             We also encourage a longer trip to explore the Yucatan more broadly!
-            More recommendations coming...
+            You can find some of our favorite activities in the{" "}
+            <a href="#yucatan">Yucatan section</a> below.
           </Paragraph>
         </div>
       </div>
