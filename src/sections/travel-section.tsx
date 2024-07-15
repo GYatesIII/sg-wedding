@@ -48,9 +48,16 @@ export const TravelSection = () => {
 
       <Subsubheading className="mt-6">Accommodations</Subsubheading>
       <Paragraph>
-        We will all stay onsite at the Hacienda. We are still working on a block
-        rate, but expect to pay about $200 US per night per room. Please check
-        back soon for more information on how to reserve your room.
+        We will all stay onsite at the Hacienda on Friday &amp; Saturday nights,
+        please book that by contacting the Hacienda via WhatsApp at +52 999 175
+        9923 or via email at reserva@haciendaviva.com and mention the code{" "}
+        <strong>20241214SG</strong>.
+      </Paragraph>
+
+      <Paragraph>
+        For those coming on Thursday, we will be staying at a hotel in central
+        Merida on Thursday night. We&rsquo;re still arranging the hotel, but
+        we&rsquo;ll reach out when that&rsquo;s ready to book.
       </Paragraph>
 
       <Subsubheading className="mt-6">About the Hacienda</Subsubheading>
